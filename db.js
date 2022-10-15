@@ -1,5 +1,5 @@
 const movieList = {
-  currency: "HUF",
+  currency: "$",
   movies: [
     {
       title: "Top Gun Maverick",
@@ -17,13 +17,17 @@ const movieList = {
       title: "Jarhead",
       price: 8,
     },
+    {
+      title: "Blade Runner",
+      price: 18,
+    },
   ],
 };
 
-const seatsDeatils = {
+const seatsDetails = {
   rows: 6,
   columns: 8,
-  occupied: [11, 12, 28, 29, 35, 36, 37, 38, 44],
+  occupied: [11, 13, 28, 35, 36, 37, 38, 44],
 };
 
-export { movieList, seatsDeatils };
+export { movieList, seatsDetails };
